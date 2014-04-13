@@ -128,4 +128,6 @@ Theta2_grad = Theta2_grad + lambda/m*Theta2;
 grad = [Theta1_grad(:) ; Theta2_grad(:)];
 
 
+
+
 end
