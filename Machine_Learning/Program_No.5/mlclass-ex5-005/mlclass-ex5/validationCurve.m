@@ -50,12 +50,6 @@ for i = 1:length(lambda_vec)
     error_train(i) = Jtrain;
     [Jval gard_val] = linearRegCostFunction(Xval,yval,theta_train,0);
     error_val(i) = Jval;
-%     theta = trainLinearReg(X, y, lambda);
-%     error_train(i) = 1/2/m*sum( (X*theta-y).^2 );
-%     error_val(i) = 1/2/mval*sum( (Xval*theta-yval).^2 );
-
-%     error_train(i) = linearRegCostFunction(X,y,theta1,lambda);
-%     error_val(i) = linearRegCostFunction(Xval,yval,theta1,lambda)
 end
 
 
