@@ -16,3 +16,5 @@ This repository includes some of my programming exercises of Standford's Machine
   Program No.6 is about Support Vector Machines (SVMs).
 
   Program No.7 is about Clustering and Dimensionality Reduction.
+
+  Program No.8 is about the implementation of Anomaly Detection and Recommender Systems.
